@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  
+    <link rel="stylesheet" href="assets/css/main.css">
+    <script src="https://kit.fontawesome.com/8c204d0fdf.js" crossorigin="anonymous"></script>
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="container-fluid main-page">
+        <div class="app-main">
+            <nav class="sidebar rounded-0">
+                <section class="infocol1 row">
+                    <div class="col-12 d-flex justify-content-center pb-3">
+                        <img src="./assets/img/newhot.png" alt="">
+                    </div>
+                </section>
+                <section class="infocol2 row">
+                    <div class="col-md-4">
+                        <img src="./assets/img/cv.jpg" alt="">
+                    </div>
+                    <div class="col-md-8">
+                        <h6>Huỳnh Kha</h6>
+                        <p>Quản trị viên</p>
+                    </div>
+                </section>
+                <ul>
+                    <li>
+                        <a href="index.html"><i class="fa-solid fa-gauge-high ico-side" style="color: #B197FC;"></i>Dashboards</a>
+                    </li>
+                    <li>
+                        <a href="order.html"><i class="fa-solid fa-list ico-side" style="color: #FFD43B;"></i>Quản kí danh mục</a>
+                    </li>
+                    <li>
+                        <a href="caterogies.html"><i class="fa-solid fa-pen-to-square ico-side" style="color: #63E6BE;"></i>Quản lí bài viết</a>
+                    </li>
+                    <li>
+                        <a href="user.html"><i class="fa-solid fa-user ico-side" style="color: #fa0000;"></i>Quản lí thành viên</a>
+                    </li>
+                    <li>
+                        <a href="user.html"><i class="fa-regular fa-message ico-side" style="color: #74C0FC;"></i>Quản lí bình luận</a>
+                    </li>
+                </ul>
+            </nav>
+            <div class="main-content">
+                <section class="headerTop row ">
+                    <div class="dropdown d-flex justify-content-end align-items-center" style="padding: 0px 0px;">
+                        <img src="./assets/img/cv.jpg" alt="">
+                        <a class="dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Hi, Huynh Kha
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">Đăng xuất</a></li>
+                        </ul>
+                    </div>
+                </section>
+                <h3 class="title-page ">
+                    Người dùng
+                </h3>
+                <div class="row " style="margin-left: 1100px;">
+                    <button class="btnFormAdd ">
+                        <a href="#" class="text-decoration-none ">Thêm</a>
+                    </button>
+                </div>    
+                <div class="table pt-3">
+                    <div class="table-header">
+                        <div class="header__item"><a id="name" class="filter__link" href="#">Name</a></div>
+                        <div class="header__item"><a id="wins" class="filter__link filter__link--number" href="#">Wins</a></div>
+                        <div class="header__item"><a id="draws" class="filter__link filter__link--number" href="#">Draws</a></div>
+                        <div class="header__item"><a id="losses" class="filter__link filter__link--number" href="#">Losses</a></div>
+                        <div class="header__item"><a id="total" class="filter__link filter__link--number" href="#">Total</a></div>
+                        <div class="header__item"><a id="total" class="filter__link filter__link--number" href="#">Hành động</a></div>
+                    </div>
+                    <div class="table-content">	
+                        <div class="table-row">		
+                            <div class="table-data">Tom</div>
+                            <div class="table-data">2</div>
+                            <div class="table-data">0</div>
+                            <div class="table-data">1</div>
+                            <div class="table-data">5</div>
+                            <div class="table-data">
+                                <a href="" class="text-decoration-none  px-2"><button class="btn btn-outline-warning ">Edit</button></a>
+                                <a href="" class="text-decoration-none "><button class="btn btn-outline-danger">Delete</button></a>
+                            </div>
+                        </div>
+                        <div class="table-row">
+                            <div class="table-data">Dick</div>
+                            <div class="table-data">1</div>
+                            <div class="table-data">1</div>
+                            <div class="table-data">2</div>
+                            <div class="table-data">3</div>
+                            <div class="table-data">
+                                <a href="" class="text-decoration-none px-2 "><button class="btn btn-outline-warning ">Edit</button></a>
+                                <a href="" class="text-decoration-none "><button class="btn btn-outline-danger">Delete</button></a>
+                            </div>
+                        </div>
+                        <div class="table-row">
+                            <div class="table-data">Harry</div>
+                            <div class="table-data">0</div>
+                            <div class="table-data">2</div>
+                            <div class="table-data">2</div>
+                            <div class="table-data">2</div>
+                            <div class="table-data">
+                                <a href="" class="text-decoration-none  px-2"><button class="btn btn-outline-warning ">Edit</button></a>
+                                <a href="" class="text-decoration-none "><button class="btn btn-outline-danger">Delete</button></a>
+                            </div>
+                        </div>
+                    </div>	
+                </div>
+
+                <ul class="pagination">
+                    <li class="page-item"><a class="page-link" href="#">Previous</a></li>
+                    <li class="page-item active"><a class="page-link" href="#">1</a></li>
+                    <li class="page-item"><a class="page-link" href="#">2</a></li>
+                    <li class="page-item"><a class="page-link" href="#">3</a></li>
+                    <li class="page-item"><a class="page-link" href="#">Next</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js" integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy" crossorigin="anonymous"></script>
+</body>
+
+</html>
